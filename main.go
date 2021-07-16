@@ -6,7 +6,7 @@ import (
 )
 
 func splitDemo() {
-	fmt.Println("Split demo")
+	fmt.Println("Split demo");
 	a := []byte("a,b,c")
 	b := bytes.Split(a, []byte(","))
 	fmt.Printf("a before changing b[0][0]: %q\n", a)
